@@ -1,0 +1,19 @@
+a{
+    background-color: #c55e8a;
+    color: #cccece;
+    cursor:pointer;
+    padding:0 10px;
+}
+.active{
+    background-color: crimson ;
+    color: white;
+    cursor:pointer;
+}
+.alert-danger {
+    color: red;
+    background-color: #f8d7da;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}

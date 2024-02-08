@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+    background-color: #c55e8a;
+    cursor:pointer;
+    padding:0 10px;
+}
+.active{
+    background-color: black ;
+    color: white;
+    cursor:pointer;
+}
+
+
+#sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    padding-top: 20px;
+}
+
+#content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+img {
+        width: 50px;
+
+    }
+.langue{
+ color: floralwhite;
+    background: #919192;
+    border: none;
+}
+.langue:hover{
+    color: black;
+}
+
+#langbtn1 { background-color: #a0aec0; }
+#langbtn2 { background-color:darkgreen; }
+#langbtn3 { background-color: #f397f0; }
+
+.lang-title[data-lang="en"],
+.lang-position-en[data-lang="en"] {
+    display: block;
+}
+
+.lang-title[data-lang="ru"],
+.lang-position-ru[data-lang="ru"] {
+    display: none;
+}
+
+.lang-title[data-lang="az"],
+.lang-position-az[data-lang="az"] {
+    display: none;
+}
+
+.alert-danger {
+    color: red;
+    background-color: #f8d7da;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
